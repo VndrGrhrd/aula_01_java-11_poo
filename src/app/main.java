@@ -14,24 +14,15 @@ public class main {
         produto.price = 2580.56;
         produto.quantity = 5;
 
-        System.out.println("Nome: " + produto.name);
-        System.out.println("Preco: " + produto.price);
-        System.out.println("Quantity: " + produto.quantity);
-        System.out.println("Total em Estoque: " + produto.TotalValueStock());
+        System.out.println(produto);
         System.out.println();
 
         produto.AddProducts(4);
-        System.out.println("Nome: " + produto.name);
-        System.out.println("Preco: " + produto.price);
-        System.out.println("Quantity: " + produto.quantity);
-        System.out.println("Total em Estoque: " + produto.TotalValueStock());
+        System.out.println(produto);
         System.out.println();
 
         produto.RemoveProducts(5);
-        System.out.println("Nome: " + produto.name);
-        System.out.println("Preco: " + produto.price);
-        System.out.println("Quantity: " + produto.quantity);
-        System.out.println("Total em Estoque: " + produto.TotalValueStock());
+        System.out.println(produto);
         System.out.println();
 
     }
